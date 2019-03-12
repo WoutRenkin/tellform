@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-require('dotenv').config({path: './.env'});
+require('dotenv').config({path: __dirname + '/.env'});
 
 if(!process.env.NODE_ENV){
     process.env.NODE_ENV = 'development';
